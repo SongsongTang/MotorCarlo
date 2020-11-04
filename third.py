@@ -64,7 +64,7 @@ plt.figure("4")
 plt.hist(xf, bins=x, density=True)
 plt.plot(x, y)
 
-# 5 x取值范围暂取[-2. 2]
+# 5 x取值范围暂取[-a, a]
 a = 6
 xi = np.random.rand(1000000)
 eta = xi - 1 / 2
