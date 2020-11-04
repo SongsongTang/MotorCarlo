@@ -65,9 +65,9 @@ plt.hist(xf, bins=x, density=True)
 plt.plot(x, y)
 
 # 5 x取值范围暂取[-2. 2]
-a = 2
+a = 6
 xi = np.random.rand(1000000)
-eta = 2 * a * xi - a
+eta = xi - 1 / 2
 i = eta <= 0
 xf1 = -np.log(-2 * eta[i])  # x > 0
 xf2 = np.log(2 * eta[~i])   # x < 0
